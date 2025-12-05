@@ -1,0 +1,24 @@
+package com.acharya.classes;
+
+import java.util.Scanner;
+
+public class absolutevalue {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		 System.out.print("Enter a number: ");
+	        int num = sc.nextInt();
+
+	        int absoluteValue;
+
+	        if (num < 0) {
+	            absoluteValue = -num;  
+	        } else {
+	            absoluteValue = num;   
+	        }
+
+	        System.out.println("Absolute value is: " + absoluteValue);
+
+	        sc.close();
+	}
+
+}
